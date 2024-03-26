@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/mspanc/phoenix_socket.git"
+    "url": "git+ssh://git@github.com/driftt/phoenix_socket.git"
   },
   "keywords": [
     "phoenix",
@@ -20,9 +20,9 @@
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mspanc/phoenix_socket/issues"
+    "url": "https://github.com/driftt/phoenix_socket/issues"
   },
-  "homepage": "https://github.com/mspanc/phoenix_socket#readme",
+  "homepage": "https://github.com/driftt/phoenix_socket#readme",
   "devDependencies": {
     "babel-preset-es2015": "^6.1.18",
     "gulp": "4.0.0",
