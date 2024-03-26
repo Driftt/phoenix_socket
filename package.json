@@ -5,7 +5,8 @@
   "main": "dist/socket.js",
   "jsnext:main": "vendor/socket.js",
   "scripts": {
-    "build": "gulp"
+    "build": "gulp",
+    "publish": "npm run build"
   },
   "repository": {
     "type": "git",
