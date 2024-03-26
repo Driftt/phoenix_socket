@@ -627,7 +627,7 @@ var Socket = exports.Socket = function () {
     this.sendBuffer = [];
     this.ref = 0;
     this.timeout = opts.timeout || DEFAULT_TIMEOUT;
-    this.transport = opts.transport || window.WebSocket || LongPoll;
+    this.transport = opts.transport || WebSocket || LongPoll;
     this.heartbeatIntervalMs = opts.heartbeatIntervalMs || 30000;
     this.reconnectAfterMs = opts.reconnectAfterMs || function (tries) {
       return [1000, 2000, 5000, 10000][tries - 1] || 10000;
